@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-yellow-1:#F8F200;
+}
+
+.div-1-container{
+  margin: 0 auto;
+  margin-top: 5px;
+  display: flex;
+  width: 1920px;
+  max-width: 1920px;
+  height: 1000px;
+  background-image: url(/practise-HTML-and-CSS/imagesW1920/HeroW1920.jpg);
+  background-size: cover; /*занимает весь блок*/
+  position: relative;
+}
+
+.div-1-header-container {
+  display: flex;
+  margin: 20px 320px 0 320px;  /* top right bottom left */
+  width: 1280px;
+  min-width: 1280px; 
+  height: 74px;
+}
+.div-1-header-container-logo{
+  display: flex;
+}
+.div-1-container-socials-buttons{
+  display: flex;
+  margin: auto 0 auto auto; /* top right bottom left */
+  gap: 40px; /*отступ между соц кнопками*/
+}
+.social-button{
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+    &:hover{
+      scale: 1.2;
+    }
+}
+
+.div-1-group108 {
+  display: flex;
+  width: 624px;
+  height: 369px;
+  background: url(/practise-HTML-and-CSS/imagesW1920/BackImgGroup108.svg);
+}
