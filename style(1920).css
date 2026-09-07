@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: 'Archangelsk';
+  src: url(/practise-HTML-and-CSS/fonts/Archangelsk.ttf);
+}
+
 :root {
   --color-yellow-1:#F8F200;
 }
@@ -41,9 +46,10 @@
   background-color: transparent;
   padding: 0;
   border: none;
-    &:hover{
+  cursor: pointer;
+  &:hover{
       scale: 1.2;
-    }
+  }
 }
 
 .div-1-group108 {
@@ -55,4 +61,31 @@
   margin-left: 976px;
   flex-shrink: 0;
   margin-top: auto;
+  position: relative;
+}
+
+.text_group108{
+  max-width: 484px;
+  margin-left: 70px;
+  margin-top: 70px;
+  font-family: 'Archangelsk';
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 100%;
+}
+
+.learn-more-btn{
+  padding: 0;
+  width: 100%;
+  max-width: 272px;
+  max-height: 78px;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  left: 70px;
+  bottom: 70px;
+  cursor: pointer;
+  &:hover {
+    scale: 1.1;
+  }
 }
