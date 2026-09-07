@@ -11,7 +11,8 @@
   margin: 0 auto;
   margin-top: 5px;
   display: flex;
-  width: 1920px;
+  flex-direction: column;
+  width: 100%;
   max-width: 1920px;
   height: 1000px;
   background-image: url(/practise-HTML-and-CSS/imagesW1920/HeroW1920.jpg);
@@ -46,8 +47,12 @@
 }
 
 .div-1-group108 {
-  display: flex;
+  display: block;
   width: 624px;
   height: 369px;
   background: url(/practise-HTML-and-CSS/imagesW1920/BackImgGroup108.svg);
+  margin-bottom: 0px;
+  margin-left: 976px;
+  flex-shrink: 0;
+  margin-top: auto;
 }
