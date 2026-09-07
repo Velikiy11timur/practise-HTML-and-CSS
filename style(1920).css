@@ -5,11 +5,18 @@
 
 @font-face {
   font-family: 'Archangelsk';
-  src: url(/practise-HTML-and-CSS/fonts/Archangelsk.ttf);
+  src: url(/fonts/Archangelsk.ttf);
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(/fonts/Roboto-VariableFont_wdth\,wght.ttf);
 }
 
 :root {
+  --color-white: #ffffff;
   --color-yellow-1:#F8F200;
+  --color-blue-1: #39b2fe;
+  --color-gray-1: #878888;
 }
 
 .div-1-container{
@@ -20,7 +27,7 @@
   width: 100%;
   max-width: 1920px;
   height: 1000px;
-  background-image: url(/practise-HTML-and-CSS/imagesW1920/HeroW1920.jpg);
+  background-image: url(/imagesW1920/HeroW1920.jpg);
   background-size: cover; /*занимает весь блок*/
   position: relative;
 }
@@ -56,7 +63,7 @@
   display: block;
   width: 624px;
   height: 369px;
-  background: url(/practise-HTML-and-CSS/imagesW1920/BackImgGroup108.svg);
+  background: url(/imagesW1920/BackImgGroup108.svg);
   margin-bottom: 0px;
   margin-left: 976px;
   flex-shrink: 0;
@@ -88,4 +95,54 @@
   &:hover {
     scale: 1.1;
   }
+}
+
+.div-2-container {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 1920px;
+  height: 777px;
+  min-height: 300px;
+  position: relative;
+}
+.div-2__text1 {
+  max-width: 996px;
+  max-height: 63px;
+  margin-left: 320px; 
+  margin-top: 70px; 
+  font-family: 'Archangelsk';
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.div-2__text2 {
+  max-width: 952px; 
+  line-height: 34px;
+  font-family:'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-gray-1);
+  margin-top: 27px;
+  margin-left: 320px;
+}
+
+.game__title {
+  font-weight: 700;
+  color: var(--color-blue-1);
+}
+
+.image-container{
+  margin-left: 320px;
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+}
+.collage-1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 460px;
+  gap: 30px; /*между картинками*/
 }
