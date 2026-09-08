@@ -17,6 +17,8 @@
   --color-yellow-1:#F8F200;
   --color-blue-1: #39b2fe;
   --color-gray-1: #878888;
+  --color-black-background: rgba(0, 0, 0, 1);
+
 }
 
 .div-1-container{
@@ -145,4 +147,124 @@
   flex-direction: column;
   max-width: 460px;
   gap: 30px; /*между картинками*/
+}
+
+.div-3-container{
+  display: block;
+  width: 100%;
+  max-width: 1920px;
+  height: 884px;
+  margin: 0 auto;
+  background-color: var(--color-black-background);
+  position: relative;
+}
+.white-black-conector{
+  margin: 0 auto;
+  height: 70px;
+}
+
+.div-3-header-text{
+  font-family: 'Archangelsk';
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--color-white);
+  margin-top: 70px;
+  margin-left: 484px;
+}
+
+.promotion-icon{
+  position: absolute;
+  max-width: 132px;
+  max-height: 132px;
+  margin-left: 320px;
+  margin-top: 15px;
+}
+
+.div-3-textMid {
+  max-width: 952px;
+  line-height: 34px;
+  font-family:'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-white);
+  margin-left: 320px;
+  margin-top: 41px;
+}
+.div-3-mid-container{
+  display: flex;
+  margin-left: 320px;
+  margin-top: 47px;
+  gap: 30px;
+}
+.dialoge-okno{
+  display: flex;
+  flex-direction: column;
+  min-width: 460px;
+  height: auto;
+  margin-top: 72px;
+}
+.give-your-screnshot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 460px;
+  height: 120px;
+  background-image: url(/imagesW1920/dached-border.svg);
+}
+.give-your-screnshot-imageContainer{
+  width: 186px;
+  height: 42px;
+}
+.foc-input{
+  color: var(--color-white);
+  background-color: transparent;
+  height: 35px;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid var(--color-white);
+  margin-bottom: 35px;
+}
+.foc-input::placeholder,
+.foc-input::-webkit-input-placeholder,
+.foc-input::-moz-placeholder,
+.foc-input:-ms-input-placeholder {
+  color: var(--color-white); /* Приглушённый серый, как в UI */
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+  opacity: 1; /* Важно для Firefox, чтобы не был слишком прозрачным */
+}
+.send-btn{
+  width: 192px;
+  height: 59px;
+  padding: 0;
+  border: none;
+  margin-top: 34px;
+  cursor: pointer;
+  &:hover{
+    scale: 1.1;
+  }
+}
+
+.personal-data-container{
+  display: flex;
+  gap: 10px;
+  margin-top: 17px;
+}
+.checkbox-personal-data{
+  background-color: transparent;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+.personal-data-text{
+  max-width: 270px;
+  color: var(--color-white);
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: -1%;
 }
