@@ -14,7 +14,7 @@
 
 :root {
   --color-white: #ffffff;
-  --color-yellow-1:#F8F200;
+  --color-yellow-1:rgba(248, 242, 0, 1);
   --color-blue-1: #39b2fe;
   --color-gray-1: #878888;
   --color-black-background: rgba(0, 0, 0, 1);
@@ -267,4 +267,96 @@
   font-size: 12px;
   line-height: 100%;
   letter-spacing: -1%;
+}
+
+.div-4-container{
+  height: 746px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--color-yellow-1);
+}
+
+.div-4-elements-container{
+  display: flex;
+  margin-left: 320px;
+  margin-top: 65px;
+  gap: 31px;
+}
+.div-4-logoCollage {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-items: center;
+}
+.kiberpunk-hp_logo{
+  width: 540px;
+  height: 80px;
+}
+
+.div-4-elements-descr{
+  width: 100%;
+  max-width: 624px;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-4-elements-descr-header{
+  margin-top: 2px;
+  max-width: 560px;
+  font-family: 'Archangelsk';
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.div-4-elements-descr-text{
+  margin-top: 26px;
+  max-width: 624px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  color: var(--color-black-background);
+}
+
+.div-4-elements-descr-midCont{
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.div-4-elements-descr-midCont-elem{
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+.div-4-midCont-elem-text{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.mini_logo{
+  width: 32px;
+  height: 32px;
+}
+.div-4-elements-descr-btn{
+  width: 194px;
+  height: 59px;
+  border: none;
+  background-color: var(--color-black-background);
+  color: var(--color-yellow-1);
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 38px;
+  cursor: pointer;
+  &:hover{
+    scale: 1.1;
+  }
 }
