@@ -15,6 +15,7 @@
 :root {
   --color-white: #ffffff;
   --color-black-background: rgba(0, 0, 0, 1);
+  --color-footer-background:rgba(255, 255, 255, 1);
 
   --color-yellow-1:rgba(248, 242, 0, 1);
   --color-blue-1: rgba(82, 190, 220, 1);
@@ -416,4 +417,62 @@
 }
 .logo-height35{
   height: 35.19px;
+}
+
+.div-footer_cont{
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  flex-direction: column;
+}
+.footer-top_cont{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-footer-background);
+  height: 100px;
+  width: 100%;
+}
+.footer-top_cont-logos_cont{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  margin-left: 320px;
+  gap: 32px;
+}
+.footer-top_cont-btn_cont{
+  display: flex;
+  flex-direction: row;
+  margin-right: 320px;
+  margin-left: auto;
+  gap: 32px;
+  align-items: center;
+  height: 100%;
+}
+.footer-btn{
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: var(--color-black-background);
+  cursor: pointer;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.footer-bottom_cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: var(--color-black-background);
+}
+.text_footer{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--color-white);
 }
