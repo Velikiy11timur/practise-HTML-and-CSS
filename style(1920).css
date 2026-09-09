@@ -17,7 +17,7 @@
   --color-black-background: rgba(0, 0, 0, 1);
 
   --color-yellow-1:rgba(248, 242, 0, 1);
-  --color-blue-1: #39b2fe;
+  --color-blue-1: rgba(82, 190, 220, 1);
   --color-gray-1: #878888;
 }
 
@@ -35,12 +35,20 @@
   line-height: 34px;
   letter-spacing: 0%;
 }
+.text_filler-type2{
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--color-blue-1);
+}
 .game__title {
   font-weight: 700;
   color: var(--color-blue-1);
 }
 
-.div-1-container{
+.div-1_cont{
   margin: 0 auto;
   margin-top: 5px;
   display: flex;
@@ -115,9 +123,8 @@
   }
 }
 
-.div-2-container {
-  margin: 0 auto;
-  display: block;
+.div-2_cont {
+  margin: 0 auto;display: block;
   width: 100%;
   max-width: 1920px;
   height: 777px;
@@ -152,7 +159,7 @@
   gap: 30px; /*между картинками*/
 }
 
-.div-3-container{
+.div-3_cont{
   display: block;
   width: 100%;
   max-width: 1920px;
@@ -229,6 +236,10 @@
   font-size: 18px;
   font-weight: 300;
   opacity: 1; /* Важно для Firefox, чтобы не был слишком прозрачным */
+  &:focus{
+    outline: none;
+    border: none;
+  }
 }
 .send-btn{
   width: 192px;
@@ -263,7 +274,7 @@
   letter-spacing: -1%;
 }
 
-.div-4-container{
+.div-4_cont{
   height: 746px;
   max-width: 1920px;
   width: 100%;
@@ -337,4 +348,72 @@
   &:hover{
     scale: 1.1;
   }
+}
+
+.div-5_cont{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+}
+.dick-aplication_img{
+  width: 944px;
+  height: 717px;
+}
+
+.div-5-right_cont{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-black-background);
+  width: 100%;
+}
+.div-5-right_cont-header_text{
+  margin-top: 70px;
+  margin-left: 32px; 
+  max-width: 624px;
+  color: var(--color-white);
+}
+.div-5-right_cont-p2{
+  margin-top: 30px;
+  margin-left: 32px;
+}
+
+.div-5-right_cont-elems_cont{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  margin-left: 32px;
+  gap: 13px;
+  margin-bottom: 40px;
+}
+.div-5-right_cont-elem{
+  display: inline-flex;
+  gap: 10px;
+}
+.div-5-right_cont-elem-text{
+  color: var(--color-white);
+}
+.div-5-bottom-elements_cont{
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  margin-top: 26px;
+  gap: 50px;
+}
+.div-5-bottom-elem{
+  display: inline-flex;
+  gap: 80px;
+  align-items: center;
+}
+.quadro-logo1{
+  width: 62px;
+  height: 35.19px;
+}
+.quadro-logo2{
+  width: 58px;
+  height: 50.27px;
+}
+.logo-height35{
+  height: 35.19px;
 }
