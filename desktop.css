@@ -51,7 +51,6 @@
 
 .div-1_cont{
   margin: 0 auto;
-  margin-top: 5px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -180,12 +179,24 @@
   margin-left: 484px;
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .promotion-icon{
   position: absolute;
   max-width: 132px;
   max-height: 132px;
   margin-left: 320px;
   margin-top: 15px;
+  &:hover{
+    animation: spin 3s linear infinite;
+  }
 }
 
 .div-3-textMid {
@@ -225,21 +236,14 @@
   height: 35px;
   padding: 0;
   border: none;
-  border-bottom: 1px solid var(--color-white);
+  border-bottom: 1px solid #777777;
   margin-bottom: 35px;
-}
-.foc-input::placeholder,
-.foc-input::-webkit-input-placeholder,
-.foc-input::-moz-placeholder,
-.foc-input:-ms-input-placeholder {
-  color: var(--color-white); /* Приглушённый серый, как в UI */
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: 300;
-  opacity: 1; /* Важно для Firefox, чтобы не был слишком прозрачным */
   &:focus{
     outline: none;
-    border: none;
+    border-bottom: 1px solid #ffffff;
   }
 }
 .send-btn{
