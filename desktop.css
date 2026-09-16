@@ -5,11 +5,11 @@
 
 @font-face {
   font-family: 'Archangelsk';
-  src: url(/fonts/Archangelsk.ttf);
+  src: url(/assets/fonts/Archangelsk.ttf);
 }
 @font-face {
   font-family: 'Roboto';
-  src: url(/fonts/Roboto-VariableFont_wdth\,wght.ttf);
+  src: url(/assets/fonts/Roboto-VariableFont_wdth\,wght.ttf);
 }
 
 :root {
@@ -24,7 +24,8 @@
 
 body{
   margin: 0 auto;
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
 }
 .background-cont{
   width: 100%;
@@ -77,7 +78,7 @@ body{
 
 .div-1-promo{
   height: auto;
-  background-image: url(/imagesW1920/HeroW1920.jpg);
+  background-image: url(/assets/imagesW1920/HeroW1920.jpg);
   background-size: cover; /*занимает весь блок*/
 }
 .div-1-promo__content{
@@ -146,40 +147,50 @@ body{
   }
 }
 
-.div-2_cont {
-  margin: 0 auto;display: block;
-  width: 100%;
-  max-width: 1920px;
-  height: 777px;
-  min-height: 300px;
-  position: relative;
+.div-2 {
+  display: flex;
+  flex-direction: column;
+  max-height: 777px;
+  height: 100%;
 }
-.div-2__text1 {
+.div-2__cont{
+  display: flex;
+  flex-direction: column;
+  padding: 0 320px;
+  height: auto;
+}
+.div-2__cont__text1 {
   max-width: 996px;
   max-height: 63px;
-  margin-left: 320px; 
   margin-top: 70px;
   color: var(--color-black-background);
 }
 
-.div-2__text2 {
+.div-2__cont__text2 {
   max-width: 952px; 
   color: var(--color-gray-1);
   margin-top: 27px;
-  margin-left: 320px;
 }
 
-.image-container{
-  margin-left: 320px;
-  margin-top: 60px;
-  display: flex;
-  gap: 30px;
+.div-2__cont__image-container{
+  display: grid;
+  margin-top: 57px;
+  width: 100%;
+  gap: 32px;
+  grid-template-areas:
+    "box1 box3 box3"
+    "box2 box3 box3";
 }
-.collage-1 {
-  display: flex;
-  flex-direction: column;
-  max-width: 460px;
-  gap: 30px; /*между картинками*/
+.box1 {
+  grid-area: box1;
+}
+
+.box2 {
+  grid-area: box2;
+}
+
+.box3 {
+  grid-area: box3;
 }
 
 .div-3_cont{
