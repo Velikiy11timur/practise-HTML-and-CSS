@@ -193,7 +193,11 @@ body{
   grid-area: box3;
 }
 
-.div-3_cont{
+.white-black-connector{
+  margin-top: 70px;
+}
+
+.div-3 {
   display: block;
   width: 100%;
   max-width: 1920px;
@@ -202,10 +206,7 @@ body{
   background-color: var(--color-black-background);
   position: relative;
 }
-.white-black-conector{
-  margin: 0 auto;
-  height: 70px;
-}
+
 
 .div-3-header-text{
   color: var(--color-white);
