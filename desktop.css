@@ -371,12 +371,14 @@ body{
   height: 70px;
 }
 
-.div-4_cont{
-  height: 746px;
-  max-width: 1920px;
-  width: 100%;
-  margin: 0 auto;
+.div-4 {
+  height: auto;
   background-color: var(--color-yellow-1);
+}
+.div-4__cont {
+  display: flex;
+  padding: 70px 320px; /*сверху и снизу 70px как в макете*/
+  gap: 32px;
 }
 
 .div-4-elements-container{
@@ -385,7 +387,7 @@ body{
   margin-top: 65px;
   gap: 31px;
 }
-.div-4-logoCollage {
+.div-4__cont__logoCollage {
   display: flex;
   flex-direction: column;
   gap: 26px;
@@ -396,30 +398,30 @@ body{
   height: 80px;
 }
 
-.div-4-elements-descr{
+.div-4__cont__elements-descr{
   width: 100%;
   max-width: 624px;
   display: flex;
   flex-direction: column;
 }
 
-.div-4-elements-descr-header{
+.div-4__cont__elements-descr__header-text{
   margin-top: 2px;
   max-width: 560px;
 }
-.div-4-elements-descr-text{
+.div-4__cont__elements-descr__text2{
   margin-top: 26px;
   max-width: 624px;
   color: var(--color-black-background);
 }
 
-.div-4-elements-descr-midCont{
+.div-4__cont__elements-descr__midCont{
   margin-top: 13px;
   display: flex;
   flex-direction: column;
   gap: 13px;
 }
-.div-4-elements-descr-midCont-elem{
+.div-4__cont__elements-descr__midCont__elem{
   align-items: center;
   display: flex;
   gap: 10px;
@@ -429,17 +431,12 @@ body{
   width: 32px;
   height: 32px;
 }
-.div-4-elements-descr-btn{
+.div-4__cont__elements-descr__podrobne-btn{
   width: 194px;
   height: 59px;
   border: none;
   background-color: var(--color-black-background);
   color: var(--color-yellow-1);
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
   margin-top: 38px;
   cursor: pointer;
   &:hover{
