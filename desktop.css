@@ -365,6 +365,12 @@ body{
   letter-spacing: -1%;
 }
 
+.black-yellow-conector{
+  padding-top: 70px;
+  background-color: var(--color-black-background);
+  height: 70px;
+}
+
 .div-4_cont{
   height: 746px;
   max-width: 1920px;
