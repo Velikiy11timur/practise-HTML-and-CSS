@@ -203,6 +203,8 @@ body{
 }
 
 .white-black-connector{
+  height: 70px;
+  background-image: url(/assets/imagesW1920/white-black-conector.png);
   margin-top: 70px;
   max-height: 70px;
 }
@@ -221,7 +223,7 @@ body{
     "c d"  
   ;
   column-gap: 32px;
-  padding: 0 320px;
+  padding: 0 320px 70px;
 }
 
 .div-3__cont__header-text {
@@ -367,9 +369,10 @@ body{
 }
 
 .black-yellow-conector{
-  padding-top: 70px;
-  background-color: var(--color-black-background);
   height: 70px;
+  background-image: url(/assets/imagesW1920/black-yellow-conector.png);
+  background-repeat: no-repeat;
+  background-color: var(--color-black-background);
 }
 
 .div-4 {
