@@ -88,6 +88,7 @@ body{
   height: auto;
   background-image: url(/assets/imagesW1920/HeroW1920.jpg);
   background-size: cover; /*занимает весь блок*/
+  background-position: center;
 }
 .div-1-promo__content{
   display: flex;
@@ -444,58 +445,57 @@ body{
   }
 }
 
-.div-5_cont{
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
+.div-5 {
+  display: grid;
+  grid-template-columns: auto 976px;
   width: 100%;
   max-width: 1920px;
 }
-.dick-aplication_img{
+.div-5__left-img{
+  background-image: url(/assets/imagesW1920/dick-aplication.png);
+  
+}
+.div-5__dick-application-img{
   width: 944px;
   height: 717px;
 }
 
-.div-5-right_cont{
+.div-5__right-cont{
   display: flex;
   flex-direction: column;
   background-color: var(--color-black-background);
-  width: 100%;
+
+  padding: 70px 32px;
 }
-.div-5-right_cont-header_text{
-  margin-top: 70px;
-  margin-left: 32px; 
+.div-5__right-cont__header-text{
   max-width: 624px;
   color: var(--color-white);
 }
-.div-5-right_cont-p2{
+.div-5__right-cont__descr-text{
   margin-top: 30px;
-  margin-left: 32px;
 }
 
-.div-5-right_cont-elems_cont{
+.div-5-right-cont__elems{
   display: flex;
   flex-direction: column;
   margin-top: 16px;
-  margin-left: 32px;
   gap: 13px;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
-.div-5-right_cont-elem{
+.div-5-right-cont__elems__elem{
   display: inline-flex;
   gap: 10px;
 }
-.div-5-right_cont-elem-text{
+.div-5-right-cont__elems__elem__text{
   color: var(--color-white);
 }
-.div-5-bottom-elements_cont{
+.div-5__right-cont__bottom-elements{
   display: flex;
   flex-direction: column;
-  margin-left: 32px;
   margin-top: 26px;
   gap: 50px;
 }
-.div-5-bottom-elem{
+.div-5__right-cont__bottom-elements__elem{
   display: inline-flex;
   gap: 80px;
   align-items: center;
