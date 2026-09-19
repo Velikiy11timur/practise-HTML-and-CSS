@@ -285,6 +285,9 @@ body{
 
 .div-3__cont__ps5-and-Xbox-img{
   margin-top: auto;
+  background-image: url(/assets/imagesW1920/ps5-and-Xbox.png);
+  width: 788px;
+  height: 456px;
   grid-area: d;
 }
 .div-3__cont__dialoge-okno__give-your-screnshot-cont {

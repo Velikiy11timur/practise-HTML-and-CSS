@@ -15,8 +15,48 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .box3 {
     width: 952px;
   }
+
+  .div-3{
+    position: static;
+  }
+
+  .div-3__cont__dialoge-okno{
+    width: 460px;
+  }
+
+  .div-3__cont{
+    padding: 0 36px 70px;
+    grid-template-areas: 
+      "a d"
+      "b d" 
+      "c d"  
+    ;
+  }
+
+  .div-3__cont__header-text{
+    margin-left: 0;
+    margin-top: 0;
+    width: auto;
+  }
+
+  .div-3__cont__textMid{
+    margin-top: 0;
+  }
+
+  .div-3__cont__ps5-and-Xbox-img{
+    background-image: url(/assets/imagesW1920/ps5-and-Xbox_vertical.png);
+    width: 460px;
+    height: 858px;
+  }
+
+  .div-3__promotion-icon{
+    position: static;
+    margin-left: 36px;
+    margin-top: 0;
+  }
+  
 }
