@@ -1,5 +1,22 @@
 @media (max-width: 1600px){
   .div-1-promo__content{
-    padding: 0 32px;
+    padding: 0 36px;
+  }
+
+  .div-2__cont{
+    padding: 70px 36px;
+  }
+}
+@media(max-width: 1900px) {
+  .div-2__cont__image-container{
+    grid-template-areas:
+      "box1 box2"
+      "box3 box3";
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box3 {
+    width: 952px;
   }
 }
