@@ -159,53 +159,65 @@ body{
 .div-2 {
   display: flex;
   flex-direction: column;
-  max-height: 777px;
-  height: 100%;
 }
+
 .div-2__cont{
   display: flex;
   flex-direction: column;
-  padding: 0 320px;
+  padding: 70px 320px;
   height: auto;
+  gap: 60px;
 }
-.div-2__cont__text1 {
+
+.div-2__cont__textes{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.div-2__cont__textes__text1 {
   max-width: 996px;
-  max-height: 63px;
-  margin-top: 70px;
   color: var(--color-black-background);
 }
 
-.div-2__cont__text2 {
+.div-2__cont__textes__text2 {
   max-width: 952px; 
   color: var(--color-gray-1);
-  margin-top: 27px;
 }
 
 .div-2__cont__image-container{
   display: grid;
-  margin-top: 57px;
   width: 100%;
   gap: 32px;
   grid-template-areas:
     "box1 box3 box3"
     "box2 box3 box3";
 }
+
 .box1 {
   grid-area: box1;
+  background-image: url(/assets/imagesW1920/Rectangle\ 597.png);
+  width: 460px;
+  height: 196px;
 }
 
 .box2 {
   grid-area: box2;
+  background-image: url(/assets/imagesW1920/Rectangle\ 598.png);
+  width: 460px;
+  height: 196px;
 }
 
 .box3 {
   grid-area: box3;
+  background-image: url(/assets/imagesW1920/Rectangle\ 599.png);
+  width: 788px;
+  height: 424px;
 }
 
 .white-black-connector{
   height: 70px;
   background-image: url(/assets/imagesW1920/white-black-conector.png);
-  margin-top: 70px;
   max-height: 70px;
 }
 
@@ -228,7 +240,7 @@ body{
 
 .div-3__cont__header-text {
   color: var(--color-white);
-  margin-top: 70px;
+  margin-top: 64px;
   margin-left: 165px;
   width: 569px;
   grid-area: a;
@@ -273,6 +285,9 @@ body{
 
 .div-3__cont__ps5-and-Xbox-img{
   margin-top: auto;
+  background-image: url(/assets/imagesW1920/ps5-and-Xbox.png);
+  width: 788px;
+  height: 456px;
   grid-area: d;
 }
 .div-3__cont__dialoge-okno__give-your-screnshot-cont {
@@ -391,15 +406,25 @@ body{
   margin-top: 65px;
   gap: 31px;
 }
-.div-4__cont__logoCollage {
+.div-4__cont__logocollage {
   display: flex;
   flex-direction: column;
   gap: 26px;
   align-items: center;
 }
-.kiberpunk-hp_logo{
+
+.div-4__cont__logocollage__monitor-img{
+  background-image: url(/assets/imagesW1920/monitor.png);
+  width: 624px;
+  height: 430px;
+  background-size: cover;
+}
+
+.div-4__cont__logocollage__kiberpunk-hp_logo{
+  background-image: url(/assets/logotipes/kiberpunk-hp_logo.svg);
   width: 540px;
   height: 80px;
+  background-size: cover;
 }
 
 .div-4__cont__elements-descr{
