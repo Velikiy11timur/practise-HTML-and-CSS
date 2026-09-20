@@ -103,19 +103,19 @@ body{
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 74px;
   margin-top: 20px;
 }
 .div-1-promo__content__header__container-logo{
-  display: flex;
+  background-image: url(/assets/logotipes/Cyberpunk_2077_logo\ 1.svg);
+  background-size: cover;
+  width: 296px;
+  height: 74px;
 }
 .div-1-promo__content__header__container-socials-buttons{
   display: flex;
   gap: 40px; /*отступ между соц кнопками*/
 }
-.div-1-promo__content__header__container-socials-buttons_social-button{
-  width: 30px;
-  height: 30px;
+.div-1-promo__content__header__container-socials-buttons__social-button{
   background-color: transparent;
   padding: 0;
   border: none;
@@ -123,6 +123,11 @@ body{
   &:hover{
       scale: 1.2;
   }
+}
+
+.div-1-promo__content__header__container-socials-buttons__social-button_size{
+  width: 30px;
+  height: 30px;
 }
 
 .div-1-promo__content__group108 {

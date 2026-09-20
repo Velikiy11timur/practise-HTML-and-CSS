@@ -1,0 +1,44 @@
+@media (max-width: 1000px) {
+  .text_header1{
+    font-size: 30px;
+  }
+
+  .div-1-promo__content{
+    padding: 0 0;
+    align-items: center;
+    height: 763px;
+  }
+  .div-1-promo__content__header{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .div-1-promo__content__header__container-logo{
+    width: 200px;
+    height: 50px;
+  }
+  .div-1-promo__content__header__container-socials-buttons{
+    gap: 30px;
+  }
+  .div-1-promo__content__header__container-socials-buttons__social-button_size{
+    width: 25px;
+    height: 25px;
+  }
+  .div-1-promo__content__group108{
+    width: 320px;
+    height: 207px;
+  }
+
+  .div-1-promo__content__group108__content{
+    padding: 30px 12px;
+    align-items: center;
+  }
+
+  .div-1-promo__content__group108__content__text{
+    text-align: center;
+  }
+  
+  .div-1-promo__content__group108__content__btn-learn-more{
+    width: 244px;
+    height: 60px;
+  }
+}
