@@ -406,15 +406,25 @@ body{
   margin-top: 65px;
   gap: 31px;
 }
-.div-4__cont__logoCollage {
+.div-4__cont__logocollage {
   display: flex;
   flex-direction: column;
   gap: 26px;
   align-items: center;
 }
-.kiberpunk-hp_logo{
+
+.div-4__cont__logocollage__monitor-img{
+  background-image: url(/assets/imagesW1920/monitor.png);
+  width: 624px;
+  height: 430px;
+  background-size: cover;
+}
+
+.div-4__cont__logocollage__kiberpunk-hp_logo{
+  background-image: url(/assets/logotipes/kiberpunk-hp_logo.svg);
   width: 540px;
   height: 80px;
+  background-size: cover;
 }
 
 .div-4__cont__elements-descr{

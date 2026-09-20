@@ -40,11 +40,12 @@
   .div-3__cont__header-text{
     margin-left: 0;
     margin-top: 0;
-    width: auto;
+    width: 460px;
   }
 
   .div-3__cont__textMid{
     margin-top: 0;
+    width: 460px;
   }
 
   .div-3__cont__ps5-and-Xbox-img{
@@ -59,4 +60,19 @@
     margin-top: 0;
   }
   
+  .div-4__cont{
+    padding: 70px 36px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-4__cont__logocollage__monitor-img{
+    width: 460px;
+    height: 317px;
+  }
+  .div-4__cont__logocollage__kiberpunk-hp_logo{
+    background-image: url(/assets/logotipes/kiberpunk-hp_logo_vertical.svg);
+    width: 320px;
+    height: 230px;
+  }
 }
