@@ -79,4 +79,7 @@
   .div-5{
     grid-template-columns: auto 696px;
   }
+  .footer__content__top{
+    padding: 0 36px;
+  }
 }
