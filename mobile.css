@@ -112,6 +112,10 @@
     width: auto;
   }
 
+  .div-3__cont__dialoge-okno__send-btn{
+    width: 182px;
+  }
+
   .div-3__promotion-icon{
     position: absolute;
     top: 6px;
@@ -126,5 +130,29 @@
     background-repeat: no-repeat;
     width: 296px;
     height: 131px;
+  }
+
+  .div-4__cont{
+    padding: 70px 12px;
+    flex-direction: column;
+  }
+  .div-4__cont__logocollage__monitor-img{
+    width: 296px;
+    height: 204px;
+  }
+
+  .div-4__cont__logocollage__kiberpunk-hp_logo{
+    background-image: url(/assets/logotipes/kiberpunk-hp_logo.svg);
+    width: 296px;
+    height: 44px;
+  }
+
+  .div-4__cont__elements-descr__podrobne-btn{
+    width: 184px;
+  }
+
+  .mini_logo32x32 {
+    width: 24px;
+    height: 24px;
   }
 }

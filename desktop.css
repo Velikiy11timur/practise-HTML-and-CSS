@@ -306,6 +306,7 @@ body{
   background-image: url(/assets/imagesW1920/dached-border.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .div-3__cont__dialoge-okno__give-your-screnshot-cont__screenshot-btn-cont{
   display: flex;
