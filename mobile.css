@@ -162,8 +162,8 @@
   }
 
   .div-5__left-img{
-    min-width: 320px;
-    width: 100vw;
+    width: 100%;
+    max-width: 100vw;
     height: 200px;
     background-size: cover;
   }
@@ -185,8 +185,30 @@
   }
 
   .div-5__right-cont__bottom-logos{
-    min-width: 296px;
-    width: auto;
+    width: 100%;
     height: 127px;
+  }
+
+  .footer__content__top{
+    padding: 0 0;
+  }
+
+  .footer__content__top__content__logos_cont{
+    flex-direction: column;
+    height: 200px;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .footer__content__top__content{
+    flex-direction: column;
+  }
+  .footer__content__top__content__buttons-cont{
+    justify-content: center;
+    max-width: 100vw;
+    width: 100%;
+    background-color: #E5E5E5;
+    flex-direction: column;
+    gap: 15px;
   }
 }
