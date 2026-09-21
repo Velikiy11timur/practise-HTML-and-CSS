@@ -155,4 +155,38 @@
     width: 24px;
     height: 24px;
   }
+
+  .div-5{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-5__left-img{
+    min-width: 320px;
+    width: 100vw;
+    height: 200px;
+    background-size: cover;
+  }
+
+  .div-5__right-cont{
+    padding: 70px 12px;
+  }
+
+  .div-5-right-cont__elems{
+    margin-bottom: 40px;
+  }
+
+  .div-5-right-cont__elems__elem__text{
+    line-height: 100%;
+  }
+
+  .text_filler-type2{
+    font-size: 20px;
+  }
+
+  .div-5__right-cont__bottom-logos{
+    min-width: 296px;
+    width: auto;
+    height: 127px;
+  }
 }

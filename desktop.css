@@ -491,7 +491,7 @@ body{
 }
 .div-5__left-img{
   background-image: url(/assets/imagesW1920/dick-aplication.png);
-  
+  background-position: center;
 }
 .div-5__dick-application-img{
   width: 944px;
@@ -527,12 +527,45 @@ body{
 .div-5-right-cont__elems__elem__text{
   color: var(--color-white);
 }
-.div-5__right-cont__bottom-elements{
+.div-5__right-cont__bottom-logos{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin-top: 26px;
-  gap: 50px;
+  width: 319px;
+  height: 134px;
 }
+
+.div-5__right-cont__bottom-logos__row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-5__right-cont__bottom-logos__row-top__ps-logo{
+  background-image: url(/assets/logotipes/PC-logo.svg);
+  width: 62px;
+  height: 36px;
+}
+
+.div-5__right-cont__bottom-logos__row-top__xbox-logo{
+  background-image: url(/assets/logotipes/xbox-one-logo.svg);
+  width: 178px;
+  height: 36px;
+}
+
+.div-5__right-cont__bottom-logos__row-top__stadia-logo{
+  background-image: url(/assets/logotipes/stadia-logo.svg);
+  width: 58px;
+  height: 51px;
+}
+
+.div-5__right-cont__bottom-logos__row-top__ps4-logo{
+  background-image: url(/assets/logotipes/Playstation-logo.svg);
+  width: 168px;
+  height: 36px;
+}
+
 .div-5__right-cont__bottom-elements__elem{
   display: inline-flex;
   gap: 80px;
