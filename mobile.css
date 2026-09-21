@@ -41,4 +41,35 @@
     width: 244px;
     height: 60px;
   }
+
+  .div-2__cont__image-container{
+    grid-template-areas: 
+    "box1" 
+    "box2"
+    "box3";
+  }
+
+  .box1 {
+    width: 95vw;
+    height: 196px;
+  }
+
+  .box2 {
+    width: 95vw;
+    height: 196px;
+  }
+
+  .box3 {
+    width: 95vw;
+    height: 424px;
+  }
+
+  .div-2__cont{
+    padding: 70px 12px;
+  }
+
+  .text_filler-type1{
+    font-size: 16px;
+    line-height: 32px;
+  }
 }
