@@ -262,13 +262,15 @@ body{
 
 .div-3__promotion-icon{
   position: absolute;
-  max-width: 132px;
-  max-height: 132px;
+  width: 132px;
+  height: 132px;
   margin-left: 320px;
   margin-top: 15px;
   &:hover{
     animation: spin 3s linear infinite;
   }
+  background-image: url(/assets/logotipes/promotion-icon.svg);
+  background-size: cover;
 }
 
 .div-3__cont__textMid {
@@ -302,6 +304,8 @@ body{
   width: 460px;
   height: 120px;
   background-image: url(/assets/imagesW1920/dached-border.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .div-3__cont__dialoge-okno__give-your-screnshot-cont__screenshot-btn-cont{
   display: flex;

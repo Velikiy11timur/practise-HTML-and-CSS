@@ -72,4 +72,59 @@
     font-size: 16px;
     line-height: 32px;
   }
+
+  .div-3{
+    position: relative;
+  }
+  
+  .div-3__cont{
+    padding: 55px 12px 70px;
+    grid-template-areas: 
+      "d"
+      "a" 
+      "b" 
+      "c";
+    gap: 25px;
+  }
+
+  .div-3__cont__header-text{
+    min-width: 296px;
+    width: auto;
+  }
+  
+  .div-3__cont__textMid{
+    min-width: 296px;
+    width: auto;
+  }
+
+  .div-3__cont__dialoge-okno{
+    margin-top: 70px;
+    min-width: 296px;
+    width: auto;
+  }
+
+  .div-3__cont__dialoge-okno__foc-input{
+    font-size: 16px;
+  }
+
+  .div-3__cont__dialoge-okno__give-your-screnshot-cont{
+    min-width: 296px;
+    width: auto;
+  }
+
+  .div-3__promotion-icon{
+    position: absolute;
+    top: 6px;
+    left: 12px;
+    width: 62px;
+    height: 62px;
+    margin-left: 0;
+  }
+
+  .div-3__cont__ps5-and-Xbox-img{
+    background-image: url(/assets/imagesW1920/ps5-and-Xbox_horisontal-mini.png);
+    background-repeat: no-repeat;
+    width: 296px;
+    height: 131px;
+  }
 }
