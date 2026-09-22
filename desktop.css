@@ -87,8 +87,9 @@ body{
 .div-1-promo{
   height: auto;
   background-image: url(/assets/imagesW1920/HeroW1920.jpg);
-  background-size: cover; /*занимает весь блок*/
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .div-1-promo__content{
   display: flex;
@@ -464,6 +465,7 @@ body{
   align-items: center;
   display: flex;
   gap: 10px;
+  line-height: 100%;
 }
 
 .mini_logo32x32{
@@ -607,6 +609,17 @@ body{
   align-items: center;
   gap: 32px;
 }
+
+.footer__content__top__content__logos_cont_cyberpunk-logo-size{
+  width: 296px;
+  height: 74px;
+}
+
+.footer__content__top__content__logos_cont_cd-projekt-logo-size{
+  width: 173px;
+  height: 74px;
+}
+
 .footer__content__top__content__buttons-cont{
   display: flex;
   gap: 32px;
