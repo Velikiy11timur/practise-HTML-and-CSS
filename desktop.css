@@ -46,7 +46,7 @@ body{
   font-family:'Archangelsk';
   font-weight: 400;
   font-size: 62px;
-  line-height: 100%;
+  line-height: 102%;
   letter-spacing: 0%;
 }
 .text_filler-type1{
@@ -245,7 +245,7 @@ body{
 
 .div-3__cont__header-text {
   color: var(--color-white);
-  margin-top: 64px;
+  margin-top: 70px;
   margin-left: 165px;
   width: 569px;
   grid-area: a;
@@ -346,7 +346,7 @@ body{
 .div-3__cont__dialoge-okno__foc-input{
   color: var(--color-white);
   background-color: transparent;
-  height: 35px;
+  height: 32px;
   padding: 0;
   border: none;
   border-bottom: 1px solid #777777;
@@ -364,7 +364,7 @@ body{
   height: 59px;
   padding: 0;
   border: none;
-  margin-top: 34px;
+  margin-top: 37px;
   cursor: pointer;
   &:hover{
     scale: 1.1;
@@ -406,7 +406,7 @@ body{
 }
 .div-4__cont {
   display: flex;
-  padding: 70px 320px; /*сверху и снизу 70px как в макете*/
+  padding: 68px 320px 71px;
   gap: 32px;
 }
 
@@ -449,7 +449,7 @@ body{
   max-width: 560px;
 }
 .div-4__cont__elements-descr__text2{
-  margin-top: 26px;
+  margin-top: 24px;
   max-width: 624px;
   color: var(--color-black-background);
 }
@@ -476,7 +476,7 @@ body{
   border: none;
   background-color: var(--color-black-background);
   color: var(--color-yellow-1);
-  margin-top: 38px;
+  margin-top: 37px;
   cursor: pointer;
   &:hover{
     scale: 1.1;
@@ -502,8 +502,7 @@ body{
   display: flex;
   flex-direction: column;
   background-color: var(--color-black-background);
-
-  padding: 70px 32px;
+  padding: 70px 32px 71px;
 }
 .div-5__right-cont__header-text{
   max-width: 624px;
@@ -516,7 +515,7 @@ body{
 .div-5-right-cont__elems{
   display: flex;
   flex-direction: column;
-  margin-top: 16px;
+  margin-top: 13px;
   gap: 13px;
   margin-bottom: 70px;
 }
@@ -564,6 +563,7 @@ body{
   background-image: url(/assets/logotipes/Playstation-logo.svg);
   width: 168px;
   height: 36px;
+  margin-right: 10px;
 }
 
 .div-5__right-cont__bottom-elements__elem{
