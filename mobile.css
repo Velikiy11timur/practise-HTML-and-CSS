@@ -1,3 +1,4 @@
+
 @media (max-width: 1000px) {
   .text_header1{
     font-size: 30px;
@@ -59,17 +60,17 @@
   }
 
   .box1 {
-    width: 100%;
+    width: 460px;
     height: 196px;
   }
 
   .box2 {
-    width: 100%;
+    width: 460px; 
     height: 196px;
   }
 
   .box3 {
-    width: 100%;
+    width: 460px;
     height: 424px;
   }
 
@@ -281,5 +282,26 @@
   }
   .footer__content__top__content__buttons-cont{
     height: 103px;
+  }
+}
+
+@media (max-width: 460px) {
+    .box1 {
+    width: 100vw;
+    height: 196px;
+  }
+
+  .box2 {
+    width: 100vw; 
+    height: 196px;
+  }
+
+  .box3 {
+    width: 100vw;
+    height: 424px;
+  }
+
+  .second-row {
+    display: block;
   }
 }

@@ -3,6 +3,10 @@
     padding: 0 36px;
   }
 
+  .div-3__cont{
+    padding: 0 36px 70px;
+  }
+
   .div-2__cont{
     padding: 70px 36px;
   }
@@ -29,7 +33,6 @@
   }
 
   .div-3__cont{
-    padding: 0 36px 70px;
     grid-template-areas: 
       "a d"
       "b d" 
