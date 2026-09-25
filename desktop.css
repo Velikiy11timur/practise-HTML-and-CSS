@@ -46,7 +46,7 @@ body{
   font-family:'Archangelsk';
   font-weight: 400;
   font-size: 62px;
-  line-height: 100%;
+  line-height: 102%;
   letter-spacing: 0%;
 }
 .text_filler-type1{
@@ -87,8 +87,9 @@ body{
 .div-1-promo{
   height: auto;
   background-image: url(/assets/imagesW1920/HeroW1920.jpg);
-  background-size: cover; /*занимает весь блок*/
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .div-1-promo__content{
   display: flex;
@@ -103,19 +104,19 @@ body{
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 74px;
   margin-top: 20px;
 }
 .div-1-promo__content__header__container-logo{
-  display: flex;
+  background-image: url(/assets/logotipes/Cyberpunk_2077_logo\ 1.svg);
+  background-size: cover;
+  width: 296px;
+  height: 74px;
 }
 .div-1-promo__content__header__container-socials-buttons{
   display: flex;
   gap: 40px; /*отступ между соц кнопками*/
 }
-.div-1-promo__content__header__container-socials-buttons_social-button{
-  width: 30px;
-  height: 30px;
+.div-1-promo__content__header__container-socials-buttons__social-button{
   background-color: transparent;
   padding: 0;
   border: none;
@@ -123,6 +124,11 @@ body{
   &:hover{
       scale: 1.2;
   }
+}
+
+.div-1-promo__content__header__container-socials-buttons__social-button_size{
+  width: 30px;
+  height: 30px;
 }
 
 .div-1-promo__content__group108 {
@@ -240,7 +246,7 @@ body{
 
 .div-3__cont__header-text {
   color: var(--color-white);
-  margin-top: 64px;
+  margin-top: 70px;
   margin-left: 165px;
   width: 569px;
   grid-area: a;
@@ -257,13 +263,15 @@ body{
 
 .div-3__promotion-icon{
   position: absolute;
-  max-width: 132px;
-  max-height: 132px;
+  width: 132px;
+  height: 132px;
   margin-left: 320px;
   margin-top: 15px;
   &:hover{
     animation: spin 3s linear infinite;
   }
+  background-image: url(/assets/logotipes/promotion-icon.svg);
+  background-size: cover;
 }
 
 .div-3__cont__textMid {
@@ -297,6 +305,9 @@ body{
   width: 460px;
   height: 120px;
   background-image: url(/assets/imagesW1920/dached-border.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .div-3__cont__dialoge-okno__give-your-screnshot-cont__screenshot-btn-cont{
   display: flex;
@@ -336,7 +347,7 @@ body{
 .div-3__cont__dialoge-okno__foc-input{
   color: var(--color-white);
   background-color: transparent;
-  height: 35px;
+  height: 32px;
   padding: 0;
   border: none;
   border-bottom: 1px solid #777777;
@@ -354,7 +365,7 @@ body{
   height: 59px;
   padding: 0;
   border: none;
-  margin-top: 34px;
+  margin-top: 37px;
   cursor: pointer;
   &:hover{
     scale: 1.1;
@@ -396,7 +407,7 @@ body{
 }
 .div-4__cont {
   display: flex;
-  padding: 70px 320px; /*сверху и снизу 70px как в макете*/
+  padding: 68px 320px 71px;
   gap: 32px;
 }
 
@@ -439,7 +450,7 @@ body{
   max-width: 560px;
 }
 .div-4__cont__elements-descr__text2{
-  margin-top: 26px;
+  margin-top: 24px;
   max-width: 624px;
   color: var(--color-black-background);
 }
@@ -448,12 +459,13 @@ body{
   margin-top: 13px;
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 15px;
 }
 .div-4__cont__elements-descr__midCont__elem{
   align-items: center;
   display: flex;
   gap: 10px;
+  line-height: 100%;
 }
 
 .mini_logo32x32{
@@ -466,7 +478,7 @@ body{
   border: none;
   background-color: var(--color-black-background);
   color: var(--color-yellow-1);
-  margin-top: 38px;
+  margin-top: 40px;
   cursor: pointer;
   &:hover{
     scale: 1.1;
@@ -481,7 +493,7 @@ body{
 }
 .div-5__left-img{
   background-image: url(/assets/imagesW1920/dick-aplication.png);
-  
+  background-position: center;
 }
 .div-5__dick-application-img{
   width: 944px;
@@ -492,8 +504,7 @@ body{
   display: flex;
   flex-direction: column;
   background-color: var(--color-black-background);
-
-  padding: 70px 32px;
+  padding: 70px 32px 71px;
 }
 .div-5__right-cont__header-text{
   max-width: 624px;
@@ -506,7 +517,7 @@ body{
 .div-5-right-cont__elems{
   display: flex;
   flex-direction: column;
-  margin-top: 16px;
+  margin-top: 13px;
   gap: 13px;
   margin-bottom: 70px;
 }
@@ -517,12 +528,46 @@ body{
 .div-5-right-cont__elems__elem__text{
   color: var(--color-white);
 }
-.div-5__right-cont__bottom-elements{
+.div-5__right-cont__bottom-logos{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin-top: 26px;
-  gap: 50px;
+  width: 319px;
+  height: 134px;
 }
+
+.div-5__right-cont__bottom-logos__row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-5__right-cont__bottom-logos__row-top__ps-logo{
+  background-image: url(/assets/logotipes/PC-logo.svg);
+  width: 62px;
+  height: 36px;
+}
+
+.div-5__right-cont__bottom-logos__row-top__xbox-logo{
+  background-image: url(/assets/logotipes/xbox-one-logo.svg);
+  width: 178px;
+  height: 36px;
+}
+
+.div-5__right-cont__bottom-logos__row-top__stadia-logo{
+  background-image: url(/assets/logotipes/stadia-logo.svg);
+  width: 58px;
+  height: 51px;
+}
+
+.div-5__right-cont__bottom-logos__row-top__ps4-logo{
+  background-image: url(/assets/logotipes/Playstation-logo.svg);
+  width: 168px;
+  height: 36px;
+  margin-right: 10px;
+}
+
 .div-5__right-cont__bottom-elements__elem{
   display: inline-flex;
   gap: 80px;
@@ -557,19 +602,29 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 13px 0;
 }
 .footer__content__top__content__logos_cont{
   display: flex;
-  height: 100%;
+  height: 100px;
   align-items: center;
   gap: 32px;
 }
+
+.footer__content__top__content__logos_cont_cyberpunk-logo-size{
+  width: 296px;
+  height: 74px;
+}
+
+.footer__content__top__content__logos_cont_cd-projekt-logo-size{
+  width: 173px;
+  height: 74px;
+}
+
 .footer__content__top__content__buttons-cont{
   display: flex;
   gap: 32px;
   align-items: center;
-  height: 100%;
+  height: 100px;
 }
 .footer__content__top__content__buttons-cont__button{
   padding: 0;
@@ -596,4 +651,8 @@ body{
   line-height: 100%;
   letter-spacing: 0%;
   color: var(--color-white);
+}
+
+.second-row {
+  display: none;
 }
